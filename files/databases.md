@@ -1,10 +1,10 @@
-### What is a database?
+## What is a database?
 
 A database is a collection of data organized and stored in a computer system so it can be accessed and updated efficiently. 
 
 There are a number of ways to organize the data and so there are a number of different ~types~ of databases. 
 
-#### What is in a database?
+### What is in a database?
 
 A database typically consists of the following components:
 
@@ -13,7 +13,7 @@ A database typically consists of the following components:
 - Software: Software serves the purpose of connecting the user with the database. Users can make modifications and accomplish other operations on the data using software. The software detemines the data access language.
 - Users: Users are the most important component of a database as they are responsible for performing every function, big and small, on a database. From entering information into a database to saving and modifying this information, it is the user who is responsible for implementing different functions on the database. 
 
-#### Types of databases
+### Types of databases
 
 Databases are sometimes referred to as Database Management Systems or DBMS, which is really the whole package of data and code
 but I am using "databases" for short.
@@ -38,7 +38,7 @@ Current market share by DBMS: https://en.wikipedia.org/wiki/Relational_database#
 
 And now: https://db-engines.com/en/ranking
 
-#### Why use a database and not a FITS table or a big file?
+### Why use a database and not a FITS table or a big file?
 
 - Dtabases can handle data that is larger than the RAM of your computer.
 - Databases can handle querying tasks, including very complex queries, math, etc.
@@ -51,7 +51,7 @@ And now: https://db-engines.com/en/ranking
 - Databases can handle transactions and concurrent access
 - Databases (+ ORMs) let you manipulate data in very programmer friendly way.
 
-#### Disadvantages
+### Disadvantages
 
 There are also some disadvantages to using database architecture:
 
@@ -61,3 +61,34 @@ There are also some disadvantages to using database architecture:
 - A database may need to be redesigned or reconfigured as the amount of data grows or the number of users increases, which can be a time-consuming and complex process.
 
 (List courtesy of Andrey https://stackoverflow.com/questions/2356851/database-vs-flat-files)
+
+
+## Databases in Astronomy
+
+There are lots of databases in astronomy. May of them have web interfaces. What are some databases that you use frequently?
+
+Webpages are nice but reproducible they are not. In order to address this, may 
+
+Astroquery: https://astroquery.readthedocs.io/en/latest/
+
+Notes from BG workshop:
+https://github.com/nden/astropy_bg_2023/blob/main/Archives/archive_exploration.ipynb
+
+Go over archive, SDSS, HST and JWST. Finish with astrometry.net.
+
+## SQL
+
+Even if you live well, you have to at some point write a SQL query. 
+
+SQL cheat sheet: https://learnsql.com/blog/sql-basics-cheat-sheet/sql-basics-cheat-sheet-a4.pdf
+
+<img width="531" alt="Screen Shot 2023-12-08 at 12 25 58" src="https://github.com/mpi-astronomy/data_science_training_materials/assets/4562253/e0fa5b56-18f3-4517-8e69-ddc0e8e78ad8">
+
+ADQL: 
+![Screen Shot 2023-12-08 at 12 27 52](https://github.com/mpi-astronomy/data_science_training_materials/assets/4562253/0e33cf69-21c7-461a-a398-560e2c7c1d9c)
+
+Foundations of astronomical data science:
+
+https://datacarpentry.org/astronomy-python/
+
+Full presentation: https://prezi.com/view/dCnsaMtMYwgf6NdMkGSX/
