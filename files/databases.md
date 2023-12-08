@@ -6,6 +6,13 @@ There are a number of ways to organize the data and so there are a number of dif
 
 #### What is in a database?
 
+A database typically consists of the following components:
+
+- Data: data is the actual information stored in the database. It can be further classified into user data, metadata, and application metadata.
+- Hardware: Hardware includes every device that is useful for entering and saving data in the database, such as magnetic tapes and hard disks. 
+- Software: Software serves the purpose of connecting the user with the database. Users can make modifications and accomplish other operations on the data using software. The software detemines the data access language.
+- Users: Users are the most important component of a database as they are responsible for performing every function, big and small, on a database. From entering information into a database to saving and modifying this information, it is the user who is responsible for implementing different functions on the database. 
+
 #### Types of databases
 
 Databases are sometimes referred to as Database Management Systems or DBMS, which is really the whole package of data and code
@@ -43,5 +50,14 @@ And now: https://db-engines.com/en/ranking
 - Databases are reliable
 - Databases can handle transactions and concurrent access
 - Databases (+ ORMs) let you manipulate data in very programmer friendly way.
+
+#### Disadvantages
+
+There are also some disadvantages to using database architecture:
+
+- Setting up and maintaining a database can be complex, requiring specialized skills and resources.
+- The purchase and maintenance of database software and hardware can be expensive.
+- Large databases can be resource-intensive, and the performance of the system may suffer as the amount of data grows.
+- A database may need to be redesigned or reconfigured as the amount of data grows or the number of users increases, which can be a time-consuming and complex process.
 
 (List courtesy of Andrey https://stackoverflow.com/questions/2356851/database-vs-flat-files)
