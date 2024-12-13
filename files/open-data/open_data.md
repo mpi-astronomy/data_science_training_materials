@@ -8,13 +8,13 @@
 
 **What is Data Management?**
 
-Data management comprises all disciplines related to handling data as a valuable resource, it is the practice of managing an organization's data so it can be analyzed for decision making. (wikipedia) It includes areas such as data governance (who's responsible for what, who makes decisions, how is data being kept, by who, what are the ethincs surrounging the collection, storing and distribution of this data); data architecture (how is data structured); data modeling and design (how should the data be represented); ddatabase management; metadata, data quality, etc.
+Data management comprises all disciplines related to handling data as a valuable resource, it is the practice of managing an organization's data so it can be analyzed for decision making. (wikipedia) It includes areas such as data governance (who's responsible for what, who makes decisions, how is data being kept, by who, what are the ethincs surrounging the collection, storing and distribution of this data); data architecture (how is data structured); data modeling and design (how should the data be represented); database management; metadata, data quality, etc.
 
 **What is Open Science?**
 
 Open sience as a whole is a movement to make research as a whole (or specifically its artifacts: including data, software, publications, etc.) and the dissemination of scientific results, accessible to all levels of society. 
 
-https://images.app.goo.gl/g2msqRdjEmRUhfmb7
+![Alt text](images/open-science.png)
 
 Open research is another term, considered to be more inclusive of the humanities. Also sometimes use: open scholarship
 
