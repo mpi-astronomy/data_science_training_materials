@@ -10,3 +10,4 @@ Materials for workshops and bootcamps led by the MPIA Data Science Group.
 - [MPCDF & Containers](files/MPCDF)
 - [Databases++](files/databases.md)
 - Data Visualization (TBD)
+- [Data Management and Open Data](files/open-data/open_data.md)
