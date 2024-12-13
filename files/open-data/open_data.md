@@ -86,7 +86,7 @@ But in many cases it is impractical to do this especially for large binary files
 - Ensure that raw data are backed up in more than one location. For astronomy, archives of observatories will sometimes (but not always) archive your data. But it is still useful to have a backed-up copy of the exact data you used (see above). Ensure your machine is backed by IT (your data is in a folder that is being backed up!!!), not just on an external drive. Move to MPCDF. Disk space is cheap, time is expensive, time machines don't exist.
 
 - Create the data you wish to see in the world: make your data easy to understand, read and parse:
-    - use standard formats! CSV, TSV, astropy FITS table
+    - use standard formats! CSV, TSV, astropy FITS table, VO tables (not great to produce), HDF5, parquet, (VO parquet?), asdf
     - column names should be meaningful, column values documented in header or recoded, missing data should be replaced with NA or NaN
     - file names should store useful infomation and be good for pattern matching
 
