@@ -1,13 +1,17 @@
-### Data Management and Open Science
+# Data Management and Open Science
 \# SharingIsCaring
 
-#### Definitions
 
-What is Data Management? 
+![Alt text](images/data_trap_2x.png)
+
+## Definitions
+
+**What is Data Management?**
 
 Data management comprises all disciplines related to handling data as a valuable resource, it is the practice of managing an organization's data so it can be analyzed for decision making. (wikipedia) It includes areas such as data governance (who's responsible for what, who makes decisions, how is data being kept, by who, what are the ethincs surrounging the collection, storing and distribution of this data); data architecture (how is data structured); data modeling and design (how should the data be represented); ddatabase management; metadata, data quality, etc.
 
-What is Open Science?
+**What is Open Science?**
+
 Open sience as a whole is a movement to make research as a whole (or specifically its artifacts: including data, software, publications, etc.) and the dissemination of scientific results, accessible to all levels of society. 
 
 https://images.app.goo.gl/g2msqRdjEmRUhfmb7
@@ -29,20 +33,20 @@ In the context of OPEN DATA you will often hear about the FAIR principles: The F
 - enabling  new innovative research approaches and tools 
 - aligning with international standards and approaches
 
-FAIR research data is easier to understand and share with collaborators or with the wider world.
+**FAIR** research data is easier to understand and share with collaborators or with the wider world.
 
-Findable: To make research data findable, publish the data with as much as much metadata as possible + license + DOI + a sharing platform.
+**Findable:** To make research data findable, publish the data with as much as much metadata as possible + license + DOI + a sharing platform.
 
-Accessible: make sure one can actually download the data without bariers. API?
+**Accessible:** make sure one can actually download the data without bariers. API?
 
-Interoperable: To make research data interoperable, use community-accepted languages, formats and vocabularies in the data and metadata. 
+**Interoperable:** To make research data interoperable, use community-accepted languages, formats and vocabularies in the data and metadata. 
 
-Reusable: Data should come with a clear human- and machine-readable licence and provenance information on how it was collected or generated. It should also abide by discipline-specific data and metadata standards where possible, to ensure it retains important context.
+**Reusable:** Data should come with a clear human- and machine-readable licence and provenance information on how it was collected or generated. It should also abide by discipline-specific data and metadata standards where possible, to ensure it retains important context.
 
 (also see the FORCE 11 original publication: https://force11.org/info/the-fair-data-principles/)
 
 
-#### Motivation
+## Motivation
 
 Why talk about these topics?
 
@@ -54,9 +58,9 @@ Why talk about these topics?
 
 - MOST IMPORTANT: Makes your own work more efficient!
 
-- If others are publishing their data too, it will be easier to reproduce 
+- If others are publishing their data too, it will be easier to reproduce and build on their results. Makes science progress faster.
 
-#### Problems:
+## Problems:
 - Scientists percieve "open data" and "data mangement" as more work
 - Data and docs need to be perfect
 - Policies help motivate but not enough
@@ -66,14 +70,14 @@ Why talk about these topics?
 
 
 
-#### Types of data
+## Types of data
 - Data produced by a satelite, mission, observatory. Not directly your responsibility, there are (hopefully) some policies in place that govern the data rights. But products that you derive from that do do your science (see Type C) will be your data.
 
 - Data produced by a collaboration. The collaboration should (hopefully) have some policies on data rights. 
 
 - Your own data connected to the publications you write: your own responsibility. Probably most relevant for you now, but as you become grown up astronomers, you should also start thinking about 
 
-#### Best practices for data management
+## Best practices for data management
 (from G. Wilson et al., Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510)
 
 - Save the raw data. This is the basis for your analysis, and as tempting it is to overwrite them with clean ones or junk them when you are done, DON'T. You WILL need them again. Make them read only. 
@@ -100,7 +104,7 @@ Taken in order, the recommendations above will produce intermediate data files w
 
 While the latter approach may be appropriate for projects in which very little data cleaning or processing is needed, we recommend the explicit creation and retention of intermediate products. Saving intermediate files makes it easy to rerun parts of a data analysis pipeline, which in turn makes it less onerous to revisit and improve specific data-processing tasks. Breaking a lengthy workflow into pieces makes it easier to understand, share, describe, and modify. This is particularly true when working with large data sets, for which storage and transfer of the entire data set is not trivial or inexpensive.
 
-#### Publishing It
+## Publishing It
 
 GET THYSELF A DIGITAL OBJECT IDENTIFIER! 
 
@@ -135,7 +139,7 @@ Open Access Directory (http://oad. simmons.edu/oadwiki/Data_repositories): A lis
 Force 11 Catalog (http://www.force11.org/catalog): A dynamic inventory of web-based scholarly resources, a collection of alternative publication systems, databases, organizations and groups, software, services, standards, formats, and training tools.
 
 
-#### Reproductions Packages
+## Reproductions Packages
 
 One way to make sure you have a good organization of your project is to use a template for organization. A template that helps you organize your data and scripts for a paper that helps a student reproduce your work. Depending on the project this may include:
 - Links to raw data
@@ -168,17 +172,17 @@ Show your work: https://github.com/showyourwork/showyourwork
 
 Notice all the .gitignores!!! The data should not go in the repo!!!
 
-#### One step further: Open Workflows
+## One step further: Open Workflows
 (Based on Goodman et al., 2014, Ten Simple Rules for the Care and Feeding of Scientific Data)
 
-##### What is reasonable reuse?
+### What is reasonable reuse?
 
 It is practically impossible to document every singe decision that goes into making a dataset. Some choices will seem arbitrary, some will have to be arbitraty, most will not be the bestest choices for the people who want to reuse your data. So think of what level of reproducibiluty you want your users to have? What is a reasonable level of reproducibility your users may hope for or expect? 
 - If you want/need all your work to be fully **reproducible**, then every steps needs to be documented in code, including environemt, raw data, etc.
 - Maybe your work just needs to be **inspectable**. Maybe code is enough.
 - Or maybe just your data needs to be **usable**. Maybe just data in standard formats + docs is enough.
 
-##### Publish Workflow 
+### Publish Workflow 
 
 There are applicatins that are dedicated to managing sequences of reduction and analysis steps (Taverna, Kepler, Wings, etc.). These are not used in astro. 
 
@@ -188,7 +192,7 @@ Publish your snakemake files.
 
 And your SLURM scripts. 
 
-##### Publish your code.
+### Publish your code.
 
 Put your code on github, add a licence, archive on Zenodo, add DOI to GitHub. And add a CITATION.cff file. Just do it. Better published than tidy. 
 
@@ -196,11 +200,11 @@ Attend the workshop on software packaging.
 
 Also JOSS (for significant scholarly effort). Joint publications with AAS. 
 
-##### Link your workflows and your data in your papers.
+### Link your workflows and your data in your papers.
 
 Papers are still the most findable artifacts in research. 
 
-##### Always state how you want to get credit!
+### Always state how you want to get credit!
 
 How should people cite your code?
 How should they cite your data?
@@ -211,7 +215,7 @@ Use DOIs and published papers.
 
 It is astounding how many repositories on the GitHub have no contact info for the author!
 
-##### Reward colleagues who share data and code
+### Reward colleagues who share data and code
 
 - GIVE THEM CREDIT in the way they ask you to.
 - Credit is cheap, but a major currency in academia - give them credit. 
@@ -220,7 +224,7 @@ It is astounding how many repositories on the GitHub have no contact info for th
 - Promote the work of colleagues whose data have really helped your science: invite them for talks, nominate them for awards.
 - Get familiar with the DORA recommendations (https://sfdora.org/read/) and promote them at your institution. 
 
-##### Be a booster for open science
+### Be a booster for open science
 
 - Foster these practices in your own groups. Allow students the time to learn new tools with the promise that they will be more efficient researchers later.
 - Make sure students understand the effort that goes into developing open data and software and they also follow proper citation and attribution practices.
