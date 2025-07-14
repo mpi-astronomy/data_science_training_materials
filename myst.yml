@@ -50,3 +50,6 @@ site:
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
+  nav:
+    - title: MPI Astronomy Data Science Workshops
+      url: http://mpi-astronomy.github.io/data_science_training_materials
