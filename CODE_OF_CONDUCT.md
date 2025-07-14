@@ -1,3 +1,5 @@
+# Code of Conduct
+
 We are committed to providing a strong and
 enforced code of conduct and expect everyone in our community to follow these
 guidelines when interacting with others in all forums. Our goal is to keep ours

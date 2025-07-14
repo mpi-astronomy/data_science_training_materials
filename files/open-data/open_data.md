@@ -1,4 +1,21 @@
-# Data Management and Open Science
+---
+title: Data Management and Open Science
+authors:
+- name: Iva Mocheva
+  affiliation: mpia
+affiliations:
+    - id: mpia
+      institution: Max Planck Institute for Astronomy, Königstuhl 17, 69117 Heidelberg, Germany 
+      ror: https://ror.org/01vhnrs90
+      isni: 0000 0004 0491 677X
+      department: Data Science Department
+      address: Königstuhl 17
+      city: Heidelberg
+      country: Germany
+      postal_code: 69117
+date: 2024-12-13
+---
+
 \# SharingIsCaring
 
 

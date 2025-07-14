@@ -1,13 +1,11 @@
-Materials for workshops and bootcamps led by the MPIA Data Science Group.
+# MPI-astronomy Workshop Materials
 
-- [Introduction to statistics](files/Intro-to-Stats)
-- [Intro Git](https://swcarpentry.github.io/git-novice/) (via the Carpentries)
-- [Advanced Git](https://ivastar.github.io/advanced-git/) (developped at STScI)
-- [Advanced Python](files/advanced-python-solutions.ipynb)
-- Python Projects: [notes](files/python_projects.ipynb), [test repo](https://github.com/ivastar/structrure_test_repo)
-- [Introduction to ML](files/ml-intro)
-- [High Performance Computing](https://github.com/TheSkyentist/HPCWorkshop)
-- [MPCDF & Containers](files/MPCDF)
-- [Databases++](files/databases.md)
-- Data Visualization (TBD)
-- [Data Management and Open Data](files/open-data/open_data.md)
+[![GitHub license](https://img.shields.io/github/license/mpi-astronomy/data_science_training_materials)](https://github.com/mpi-astronomy/data_science_training_materials/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/mpi-astronomy/data_science_training_materials?label=last%20update)](https://github.com/mpi-astronomy/FAQ/commits/main)
+[![deploy](https://github.com/mpi-astronomy/data_science_training_materials/actions/workflows/deploy-myst.yml/badge.svg)](https://github.com/mpi-astronomy/data_science_training_materials/actions/workflows/deploy-myst.yml)
+
+Please visit https://mpi-astronomy.github.io/data_science_training_materials/ 
+
+## Contributors
+
+We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/mpi-astronomy/FAQ/graphs/contributors).

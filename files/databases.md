@@ -1,3 +1,21 @@
+---
+title: Using Databases Introduction
+authors:
+- name: Iva Momcheva
+  affiliation: mpia
+affiliations:
+    - id: mpia
+      institution: Max Planck Institute for Astronomy, Königstuhl 17, 69117 Heidelberg, Germany 
+      ror: https://ror.org/01vhnrs90
+      isni: 0000 0004 0491 677X
+      department: Data Science Department
+      address: Königstuhl 17
+      city: Heidelberg
+      country: Germany
+      postal_code: 69117
+date: 2023-12-08
+---
+
 ## What is a database?
 
 A database is a collection of data organized and stored in a computer system so it can be accessed and updated efficiently. 

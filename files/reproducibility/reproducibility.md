@@ -1,6 +1,22 @@
-## Reproducibility and Workflow Management
+---
+title: Reproducibility and Workflow Management
+authors:
+- name: Iva Mocheva
+  affiliation: mpia
+affiliations:
+    - id: mpia
+      institution: Max Planck Institute for Astronomy, Königstuhl 17, 69117 Heidelberg, Germany 
+      ror: https://ror.org/01vhnrs90
+      isni: 0000 0004 0491 677X
+      department: Data Science Department
+      address: Königstuhl 17
+      city: Heidelberg
+      country: Germany
+      postal_code: 69117
+date: 2025-05-09
+---
 
-### What is Reproducibility?
+## What is Reproducibility?
 
 Reproducibility (closely related to replicability and repeatability) is a major principle underpinning the scientific method. For the findings of a study to be reproducible means that results obtained by an experiment or an observational study or in a statistical analysis of a data set should be achieved again with a high degree of reliability when the work is done again. There are different kinds of "re-doing" depending on whether the data, methods and team involved in the analysis are the same. 
 
