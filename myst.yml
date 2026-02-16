@@ -40,12 +40,14 @@ project:
               - file: files/ml-intro/ml-introduction.md
               - file: files/ml-intro/day1-solutions.ipynb
               - file: files/ml-intro/day2-solutions.ipynb
-        - title: Open Data
+        - title: 🔆 Scientific Good practice
           children:
-            - file: files/open-data/open_data.md
-        - title: Reproducibility
-          children:
-            - file: files/reproducibility/reproducibility.md
+          - title: Open Data
+            children:
+              - file: files/open-data/open_data.md
+          - title: Reproducibility
+            children:
+              - file: files/reproducibility/reproducibility.md
     
 site:
   template: book-theme
