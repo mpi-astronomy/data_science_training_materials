@@ -80,8 +80,8 @@ AI Agents in VS Code
 ::::
 
 ::::{card}
-:url: A Guide to Pixi for Astronomy Researchers
-Pixi
+:url: https://github.com/mpi-astronomy/pixi
+A Guide to Pixi for Astronomy Researchers
 ::::
 :::::
 
