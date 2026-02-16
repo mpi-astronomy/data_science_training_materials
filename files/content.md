@@ -71,6 +71,21 @@ Reproducibility
 ::::
 :::::
 
+## Other resources
+
+:::::{grid} 1 2 3 4
+::::{card}
+:url: https://github.com/mpi-astronomy/ai-agents
+AI Agents in VS Code
+::::
+
+::::{card}
+:url: A Guide to Pixi for Astronomy Researchers
+Pixi
+::::
+:::::
+
+
 
 ## Contributors
 
