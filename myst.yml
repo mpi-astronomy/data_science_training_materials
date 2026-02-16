@@ -24,20 +24,22 @@ project:
           - file: files/python_projects.ipynb
           - file: files/advanced-python-solutions.ipynb
           - file: files/advanced-sci-computing.ipynb
-        - title: Intro To Statistics
+        - title: 📚 Introduction to statistics & machine learning
           children:
-            - file: files/Intro-to-Stats/stats-introduction.md
-            - file: >-
-                files/Intro-to-Stats/Intro to Bayesian Inference w Linear
-                Regression.ipynb
-            - file: >-
-                files/Intro-to-Stats/Interpret test results using Bayes
-                theorem.ipynb
-        - title: Machine Learning Introduction
-          children:
-            - file: files/ml-intro/ml-introduction.md
-            - file: files/ml-intro/day1-solutions.ipynb
-            - file: files/ml-intro/day2-solutions.ipynb
+          - title: Intro To Statistics
+            children:
+              - file: files/Intro-to-Stats/stats-introduction.md
+              - file: >-
+                  files/Intro-to-Stats/Intro to Bayesian Inference w Linear
+                  Regression.ipynb
+              - file: >-
+                  files/Intro-to-Stats/Interpret test results using Bayes
+                  theorem.ipynb
+          - title: Machine Learning Introduction
+            children:
+              - file: files/ml-intro/ml-introduction.md
+              - file: files/ml-intro/day1-solutions.ipynb
+              - file: files/ml-intro/day2-solutions.ipynb
         - title: Open Data
           children:
             - file: files/open-data/open_data.md
