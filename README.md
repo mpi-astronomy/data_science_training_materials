@@ -4,7 +4,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/mpi-astronomy/data_science_training_materials?label=last%20update)](https://github.com/mpi-astronomy/FAQ/commits/main)
 [![Pages Deploy](https://github.com/mpi-astronomy/data_science_training_materials/actions/workflows/deploy-myst.yml/badge.svg)](https://github.com/mpi-astronomy/data_science_training_materials/actions/workflows/deploy-myst.yml)
 
-Please visit https://mpi-astronomy.github.io/data_science_training_materials/ 
+Please visit https://mpi-astronomy.github.io/data_science_training_materials/content/
 
 ## Contributors
 
